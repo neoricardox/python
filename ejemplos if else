@@ -1,31 +1,22 @@
-""
+
+"""
 Crear un programa que reciba el numero de año que tiene nuestra computadora
 imprimir en consaola si es viejo o es nuevo
 condiciones si es menor a 2 años es nuevo
 pero si es mayo a 2 años entonces es viejo
 """
-"""
+#codigo con el que vamos a hacer el ejemplo
 a = int(input('Cuantos años tiene tu computadora?'))
 
 if  a >= 0 and a <=2:
    print('Es Nuevo tu equipo')
-   print("-"*200)
+   print("-"*100)
 else:
   print('Es viejo tu equipo')
 print("¡¡¡"*50)
 """
-"""
-a = int(input('¿Cuantos años tiene tu computador?: '))
 
-if a >= 0 and a <= 2:
-    print('Tu computador es nuevo')
-    print('Puedes continuar con tu PC')
-else:
-    print('Tu computador es Viejo')
-    print('Considera comprar uno nuevo')
-
-print('-' * 20)
-"""
+#ejemplo con la edad
 edad = int(input("¿Cuantos años tienes: ___ ?"))
 print("Veamos")
 if edad >= 18:
