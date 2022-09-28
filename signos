@@ -1,0 +1,21 @@
+
+
+numero1 = int(input('Ingresa el Primer numero(1):  '))
+numero2 = int(input('Ingresa el Segundo numero(2): '))
+#Suma
+print(f'El resultado de la suma es: {numero1 + numero2}')
+#Resta
+print(f'El resultado de la resta es: {numero1 - numero2}')
+#Multiplicacion
+print(f'El resultado de la multiplicacion es: {numero1 * numero2}')
+#Division
+print(f'El resultado de la divison es: {numero1 / numero2}')
+#comparacion Flotante
+print(f'El resultado de la comparacion es: {numero1 % numero2}')
+#Comparacion
+print(f'La comparacion de los numeros: {numero1 == numero2}')
+#es menor
+print(f'El resultado es menor: {numero1 < numero2}')
+#el segundo es menor o igual
+print(f'El resultado es menor o igual al segundo: {numero2 >= numero1}')
+
