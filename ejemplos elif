@@ -1,0 +1,26 @@
+""
+En una escuela de conduccion se tiene un programa que dependiendo de la edad del usuario
+debe mostrar el tipo de licencia a la que tiene derecho
+Si es menor a 16 entonces no puedes conducir
+Si es menor a 18 entonces puede obtener permiso
+si es menor a 70 entonces puede obtener una licencia estandar
+si es mayo a 70 entonces necesita una licencia especial
+"""
+edad= int(input("Digita tu edad:  "))
+if edad < 16:
+    print(" // "*20)
+    print("                                        No tienes edad para conducir")
+    print(" // " * 20)
+
+elif edad < 18:
+    print(" // " * 20)
+    print("Puedes obtener un permiso para conducir")
+    print(" // " * 20)
+elif edad < 70:
+    print(" // " * 20)
+    print("Puedes obtener una licencia estandar")
+    print(" // " * 20)
+else:
+    print(" // " * 20)
+    print("Necesitas una licencia especial o que te lleve un nieto tuyo")
+print(" // "*20)
