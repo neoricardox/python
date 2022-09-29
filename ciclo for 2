@@ -1,0 +1,8 @@
+print("comienzo")
+suma = (20)
+contador = 1
+for i in [suma,4,5,6,7,8]:
+    print(f'Vuelta numero: {contador}')
+    print(f'Hola , ahora i vale {i} y su cuadrado es {i **2}')
+    contador += 1
+print('final')# suma al cuadrado
