@@ -1,0 +1,4 @@
+word = input("Ingresa una palabra") # imprime  10 veces la palabra word
+
+for i in range(10):
+    print(word)
